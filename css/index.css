@@ -1,0 +1,798 @@
+.header {
+    height: 33px;
+    background: lightgray;
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+.my-header {
+    width: 1200px;
+    height: 33px;
+    margin: 0 auto;
+}
+
+.my-header-left {
+    width: 196px;
+    height: 33px;
+    float: left;
+    line-height: 33px;
+    display: inline-block;
+}
+
+.my-span-one {
+    font-size: 14px;
+    color: #185;
+}
+
+.my-header-left a {
+    color: #666;
+    font-size: 13px;
+}
+
+.my-span-two {
+    color: #666;
+    font-size: 13px;
+}
+
+.my-span-two a:hover {
+    text-decoration: underline;
+}
+
+.my-span-three {
+    font-size: 14px;
+    color: #666666;
+}
+
+.my-a {
+    font-size: 12px;
+}
+
+.my-a:hover {
+    text-decoration: underline;
+}
+
+.my-header-right {
+    width: 516px;
+    height: 33px;
+    float: right;
+    display: inline-block;
+    line-height: 33px;
+}
+
+.my-header-right ul li a:hover {
+    text-decoration: underline;
+}
+
+.my-header-right ul li a {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.my-header-right ul li span {
+    font-size: 13px;
+    color: #666666;
+    margin-left: 8px;
+}
+
+.header-list {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-list-logo {
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+}
+
+.header-list-logo img {
+    margin-top: 10px;
+}
+
+.header-list-right {
+    width: 642px;
+    height: 80px;
+    z-index: 10;
+    display: inline-block;
+    float: right;
+    line-height: 80px;
+    text-align: center;
+}
+
+.header-list-right ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.header-list-right ul li a:hover {
+    background: #D3D3D3;
+}
+
+.big-img {
+    width: 1200px;
+    height: 342px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 1200px;
+    height: 340px;
+}
+
+.my-li {
+    z-index: 50;
+}
+
+.my-ul {
+    display: none;
+    position: absolute;
+    z-index: 50;
+    border: 1px solid #666666;
+    background: white;
+    width: 80px;
+    text-align: center;
+    margin-left: -7px;
+}
+
+.my-ul li {
+    display: block;
+}
+
+.my-ul li a {
+    font-size: 14px;
+}
+
+.big-img-left {
+    width: 235px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    z-index: 20;
+    position: absolute;
+    margin-top: -355px;
+}
+
+.big-img-left-one {
+    width: 235px;
+    height: 87px;
+    text-align: center;
+    line-height: 85px;
+    border-bottom: 1px solid #9A9895;
+    display: block;
+    cursor: pointer;
+}
+
+.big-img-left-two {
+    width: 235px;
+    height: 87px;
+    text-align: center;
+    line-height: 85px;
+    border-bottom: 1px solid #9A9895;
+    display: block;
+    cursor: pointer;
+}
+
+.big-img-left-three {
+    width: 235px;
+    height: 87px;
+    text-align: center;
+    line-height: 85px;
+    border-bottom: 1px solid #9A9895;
+    display: block;
+    cursor: pointer;
+}
+
+.big-img-left-four {
+    width: 235px;
+    height: 87px;
+    text-align: center;
+    line-height: 87px;
+    border-bottom: 1px solid #9A9895;
+    display: block;
+    cursor: pointer;
+}
+
+.my-div {
+    display: none;
+    height: 336px;
+    width: 700px;
+    margin-left: 235px;
+    margin-top: -75px;
+    z-index: 900;
+    background: white;
+    cursor: default;
+}
+
+.my-div-one {
+    cursor: pointer;
+    margin-top: 13px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.my-div-one:hover {
+    border: 1px solid seagreen;
+}
+
+.my-div-one p {
+    font-size: 13px;
+    color: #000000;
+}
+
+.big-div {
+    display: none;
+    height: 200px;
+    width: 700px;
+    margin-left: 235px;
+    margin-top: -163px;
+    z-index: 900;
+    background: white;
+    cursor: default;
+}
+
+.big-div-one {
+    display: none;
+    height: 330px;
+    width: 700px;
+    margin-left: 235px;
+    margin-top: -251px;
+    z-index: 900;
+    background: white;
+    cursor: default;
+}
+
+.my-smoul {
+    cursor: pointer;
+    margin-top: 13px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    margin-left: 30px;
+    line-height: 40px;
+    float: left;
+}
+
+.big-div-one-smoll {
+    cursor: pointer;
+    margin-top: 13px;
+    height: 40px;
+    width: 600px;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 40px;
+    float: left;
+}
+
+.big-div-one-smoll span {
+    float: left;
+    cursor: default;
+}
+
+.big-div-one-smoll-one {
+    height: 30px;
+    width: 550px;
+    font-size: 12px;
+    border-bottom: 1px solid #D3D3D3;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.div-one span {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.div-one span:hover {
+    color: green;
+}
+
+.div-one {
+    height: 20px;
+    width: 120px;
+    font-size: 12px;
+    border-left: 1px solid #D3D3D3;
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+}
+
+.my-smoul:hover {
+    border: 1px solid seagreen;
+}
+
+.my-smoul p:hover {
+    color: seagreen;
+}
+
+.my-div-one p:hover {
+    color: #118855;
+}
+
+.my-div-two p:hover {
+    color: #118855;
+}
+
+.my-div-three p:hover {
+    color: #118855;
+}
+
+.my-div-four p:hover {
+    color: #118855;
+}
+
+.big-img-left-one a {
+    color: white;
+    width: 235px;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.big-img-left-two a {
+    color: white;
+    width: 235px;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.big-img-left-three a {
+    color: white;
+    width: 235px;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.big-img-left-four a {
+    color: white;
+    width: 235px;
+    height: 87px;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.big-img-left-one:hover {
+    background: #118855;
+}
+
+.big-img-left-two:hover {
+    background: #118855;
+}
+
+.big-img-left-three:hover {
+    background: #118855;
+}
+
+.big-img-left-four:hover {
+    background: #118855;
+}
+
+.work-div {
+    display: none;
+    height: 338px;
+    width: 700px;
+    margin-top: -337px;
+    margin-left: 235px;
+    z-index: 900;
+    background: white;
+    cursor: default;
+}
+
+.work-div-span {
+    height: 140px;
+}
+
+.work-div-span span {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.work-div-div {
+    height: 130px;
+    width: 600px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.work-div-one {
+    height: 40px;
+    width: 100px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 13px;
+}
+
+.work-div-one:hover {
+    border: 1px solid green;
+}
+
+.work-div-one span {
+    cursor: pointer;
+}
+
+.work-div-one span:hover {
+    color: green;
+}
+
+.footer {
+    background: #F7F7F7;
+    width: 100%;
+    height: 1350px;
+    z-index: 10;
+}
+
+.footer-top {
+    width: 1200px;
+    height: 167px;
+    z-index: 10;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-top img {
+    margin-left: 1px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.footer-foo {
+    height: 350px;
+    width: 1200px;
+    z-index: 10;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-foo-top {
+    width: 1200px;
+    height: 48px;
+    display: inline-block;
+    line-height: 48px;
+    font-weight: 400px;
+}
+
+.footer-foo-top h2 {
+    display: inline-block;
+}
+
+.my-a-one {
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.my-a-one a:hover {
+    text-decoration: underline;
+}
+
+.footer-foo-list {
+    width: 1200px;
+    height: 301px;
+    display: inline-block;
+}
+
+.footer-foo-list-left {
+    height: 301px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.footer-foo-list-left img {
+    height: 300px;
+    width: 200px;
+}
+
+.footer-foo-list-right {
+    width: 998px;
+    height: 300px;
+    display: flex;
+    background: white;
+}
+
+.footer-phone {
+    width: 199px;
+    height: 301px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.footer-phone img {
+    width: 79.33px;
+    height: 160px;
+    margin-top: 40px;
+}
+
+.my-span-four {
+    height: 30px;
+    display: inline-block;
+    width: 198px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.List {
+    height: 348px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+
+.List-one {
+    height: 300px;
+    width: 1200px;
+    background: white;
+    display: flex;
+}
+
+.List-two {
+    width: 299px;
+    height: 300px;
+    border-right: #F7F7F7;
+    text-align: center;
+    cursor: pointer;
+    cursor: default;
+}
+
+.List-two img {
+    width: 251px;
+    height: 157px;
+    margin-top: 20px;
+}
+
+.footer-span {
+    width: 251px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.footer-span a:hover {
+    text-decoration: underline;
+}
+
+.footer-span a {
+    font-size: 13px;
+}
+
+.List-two-one {
+    width: 251px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.List-two-two {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.List-two-one span {
+    float: left;
+}
+
+.List-two-two ul li {
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.List-two-two ul li:hover {
+    text-decoration: underline;
+}
+
+.List-three-one {
+    width: 213px;
+    height: 157px;
+    display: inline-block;
+}
+
+.List-three-one img {
+    width: 211px;
+    display: inline-block;
+    height: 152px;
+}
+
+.List-three-two {
+    height: 20px;
+    width: 190px;
+    display: inline-block;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.List-three-two span {
+    font-size: 15px;
+}
+
+.List-three-two span:hover {
+    text-decoration: underline;
+}
+
+.pgdn {
+    width: 100%;
+    height: 200px;
+    background: white;
+    border-top: 1px solid #D3D3D3;
+    display: inline-block;
+}
+
+.pgdn-one {
+    height: 112px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pgdn-smoll {
+    width: 215px;
+    height: 112px;
+    justify-content: space-around;
+}
+
+#pgdn-img {
+    height: 43px;
+    width: 43px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#pgdn-img img {
+    height: 43px;
+    width: 43px;
+    display: inline-block;
+}
+
+.pgdn-smoll h3 {
+    margin-left: 63px;
+    margin-top: -44px;
+    color: #9A9895;
+}
+
+#pgdn-a {
+    height: 20px;
+    width: 160px;
+    display: inline-block;
+    margin-left: 63px;
+}
+
+#pgdn-a a {
+    color: #9A9895;
+    font-size: 13px;
+}
+
+#pgdn-a a:hover {
+    text-decoration: underline;
+}
+
+#pgdn-a1 {
+    height: 20px;
+    width: 160px;
+    margin-left: 63px;
+}
+
+#pgdn-a1 a {
+    color: #007AFF;
+    font-size: 13px;
+}
+
+#pgdn-a1 a:hover {
+    text-decoration: underline;
+}
+
+.clenn {
+    height: 140px;
+    width: 1000px;
+    margin-top: 40px;
+    margin: 0 auto;
+    border-top: 1px solid #CCCCCC;
+}
+
+.clenn-one {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.clenn-one span {
+    color: #888888;
+    font-size: 12px;
+}
+
+.clenn-one a {
+    font-size: 12px;
+    color: #888888;
+    margin-left: 24px;
+}
+
+.clenn-one a:hover {
+    text-decoration: underline;
+}
+
+.clenn-two {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 30px;
+}
+
+.clenn-two span {
+    font-size: 12px;
+    color: #888888;
+}
+
+.clenn-three {
+    width: 320px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3px;
+    line-height: 30px;
+}
+
+.clenn-three a {
+    font-size: 12px;
+    color: #888888;
+}
+
+.clenn-three a:hover {
+    text-decoration: underline;
+}
+
+.clenn-three span {
+    font-size: 12px;
+    color: #888888;
+    margin-left: 20px;
+}
+
+#scrollDiv {
+    cursor: pointer;
+    height: 200px;
+    overflow: hidden;
+}
+
+.Ding {
+    height: 100px;
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+    display: inline-block;
+}
